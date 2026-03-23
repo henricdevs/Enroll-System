@@ -1,31 +1,33 @@
-# IT Curriculum Progression & Eligibility Tracking System
+# Enroll System
 
-This project is a web-based system built using Laravel.  
-Its purpose is to track student academic progress and determine if a student is eligible to enroll in subjects based on prerequisites.
+This is a simple web-based system built using Laravel for tracking student academic progress and checking if a student is eligible to enroll in subjects.
 
 
 ## About the Project
 
-This system simulates how schools manage student progress using a curriculum.  
-It checks if students have completed required subjects before allowing them to enroll in higher-level subjects.
+This project was created as part of our ITP106 subject.
+
+The system follows a curriculum structure where subjects can have prerequisites. It checks if a student has completed the required subjects before allowing enrollment.
 
 
 ## Features
 
-- Add, edit, and manage students
+- Manage students (add, edit, delete)
 - Manage subjects and levels
-- Assign prerequisite subjects
+- Assign prerequisites to subjects
 - Track completed and ongoing subjects
-- Automatically check if a student is eligible to enroll
-- Show student progress (completed, ongoing, eligible subjects)
+- Automatically check enrollment eligibility
+- View student progress (completed, ongoing, eligible subjects)
 
 
 ## How It Works
 
-Each subject can have prerequisites.  
-Before a student can enroll in a subject, the system checks if all required subjects are already completed.
+Before a student can enroll in a subject, the system checks:
 
-If not, enrollment will be blocked.
+- If the subject has prerequisites
+- If those prerequisites are already completed by the student
+
+If not, the system prevents enrollment.
 
 
 ## Technologies Used
@@ -33,5 +35,6 @@ If not, enrollment will be blocked.
 - Laravel
 - PHP
 - MySQL
-- Blade (for UI)
+- Blade
 - HTML/CSS
+

@@ -15,7 +15,7 @@ The system is designed to simulate how schools handle subject enrollment, where 
 
 ## Screenshots
 
-*(Add screenshots here just like your CareerFlow project)*
+*(On Progress)*
 
 ## How It Works
 
